@@ -1,0 +1,213 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+:root {
+    
+    Soft orange: hsl(35, 77%, 62%)
+    Soft red: hsl(5, 85%, 63%)
+    Off-white: hsl(36, 100%, 99%)
+    Grayish blue: hsl(233, 8%, 79%)
+    Dark grayish blue: hsl(236, 13%, 42%)
+    Very dark blue: hsl(240, 100%, 5%)
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:  hsl(36, 100%, 99%);
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background:  hsl(36, 100%, 99%);
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 1.8rem;
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: var(--color-light);
+    font-size: 1rem;
+    text-transform: lowercase;
+}
+
+a:hover {
+    color: hsl(5, 85%, 63%);
+    transition: .5s;
+}
+
+.logo img {
+    width: 60px;
+
+}
+
+/* end of the header*/
+
+.Colmar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    padding-left: 100px;
+    padding-right: 115px;
+    gap: 1.5rem;
+}
+
+.Colmar img {
+    width: 800px; 
+    height: 330px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.col-mm-00 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-mm-00 .Bright{
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.col-mm-00 .light{
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    color:  hsl(236, 13%, 42%);
+}
+
+.col-mm-00 .button{
+    margin-top: 3rem;
+    color:hsl(36, 100%, 99%) ;
+    background: hsl(240, 100%, 5%);
+    padding: 8px 15px;
+}
+
+.button:hover{
+    color: hsl(36, 100%, 99%);
+    background:hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.col-md-02{
+    padding: 10px 10px;
+    background:hsl(240, 100%, 5%) ;
+}
+
+.col-md-02 h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.col-md-02 h5{
+    color:hsl(36, 100%, 99%);
+    font-size: 1rem;
+    margin-top: 3rem;
+    
+}
+
+.col-md-02 h5:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.col-md-02 p{
+    color:hsl(236, 13%, 42%);
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.col-md-02 .content{
+    border-bottom: 1px solid hsl(233, 8%, 79%); 
+    margin-bottom: 10px;
+}
+
+.col-md-03{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 4rem;
+}
+
+.col-md-03 img{
+    width: 6rem;
+    border-radius: 5px;
+    box-shadow: -5px -15px 7px -24px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -5px -15px 7px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px -15px 7px -24px rgba(0,0,0,0.75);
+}
+
+.col-mm-01 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.col-mm-01 h6{
+    color:hsl(233, 8%, 79%);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.col-mm-01 .one{
+    font-size:0.9rem ;
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.col-mm-01 .one:hover{
+    color:hsl(35, 77%, 62%);
+    cursor: pointer;
+    
+}
+
+.col-mm-01 .two{
+  color:hsl(236, 13%, 42%);
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+/* end of main */
+
+.attribution {
+    font-size: 0.8rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen {
+    
+}
